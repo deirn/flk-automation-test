@@ -15,6 +15,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update readme
+          commit_author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
       - uses: FabricMC/fabric-action-scripts@v1
         id: changelog
         with:
